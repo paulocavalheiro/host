@@ -39,7 +39,7 @@ export default function Home() {
         password,
         redirect: false,
       });
-
+      console.log(result, "result");
       if (result?.error) {
         console.log(result.error);
         return;
